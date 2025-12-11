@@ -105,18 +105,18 @@ a {
     .hero {
       padding: calc(8rem - 30px) 0 8rem 0; } }
   .hero .intro-excerpt {
-    position: relative;
+    position: left;
     z-index: 4; }
     @media (min-width: 992px) {
       .hero .intro-excerpt {
         max-width: 450px; } }
   .hero h1 {
-    font-weight: 700;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 30px; }
     @media (min-width: 1400px) {
       .hero h1 {
-        font-size: 54px; } }
+        font-size: 35px; } }
   .hero p {
     color: rgba(255, 255, 255, 0.5);
     margin-botom: 30px; }

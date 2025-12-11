@@ -20,7 +20,7 @@
 <body>
 
   <!-- Start Header/Navigation -->
-  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+  <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni navigation bar">
     <div class="container">
       <a class="navbar-brand" href="index.html">
         <img src="images/lslogo.png" alt="LSGH Logo" style="height: 40px; margin-right: 10px; vertical-align: middle;">
@@ -55,27 +55,28 @@
         height: 100%; 
         display: flex; 
         flex-direction: column; 
-        justify-content: center; 
+        justify-content: flex-start;  /* Move content to top */
         align-items: center; 
         text-align: center;
-        padding: 20px;
+        padding: 80px 20px 20px 20px; /* Adjust top padding */
     ">
 
-      <!-- CENTERED TEXT -->
+      <!-- HERO TEXT -->
       <div class="intro-excerpt" style="color: #fff;">
-        <h1 style="margin: 0 0 25px 0; line-height: 1.2;">
+        <h1 style="margin: -170px 0 -150px -620px; line-height: 1.2; text-align: left;">
           Basic Education <span class="d-block">Survey Visit</span>
         </h1>
       </div>
 
-      <!-- CENTERED BUTTON GROUP -->
+      <!-- BUTTONS -->
       <div class="hero-buttons" style="
           display: flex;
           justify-content: center;
           align-items: center;
           flex-wrap: wrap;
           gap: 12px;
-          margin-top: 10px;
+          margin-top: -150px;
+          margin-right: -300px;
       ">
         <a href="https://sites.google.com/lsgh.edu.ph/bedpaascu2526/welcome-message"
            class="btn btn-white-outline"
