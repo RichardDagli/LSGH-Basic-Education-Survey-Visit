@@ -105,7 +105,7 @@ a {
     .hero {
       padding: calc(8rem - 30px) 0 8rem 0; } }
   .hero .intro-excerpt {
-    position: left;
+    position: relative;
     z-index: 4; }
     @media (min-width: 992px) {
       .hero .intro-excerpt {
